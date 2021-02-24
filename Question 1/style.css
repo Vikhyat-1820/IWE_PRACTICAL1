@@ -1,0 +1,148 @@
+table{
+	overflow: scroll;
+	border-collapse: collapse;
+	width: 140%;
+}
+
+
+table,td,tr{
+	border: 1px solid black;
+
+}
+
+td,tr{
+	text-align: center;
+	padding:10px 10px;
+	
+	margin: 0;
+}
+
+body{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+.oe{
+	background-color:#ffffb3;
+}
+.dce{
+	background-color:#b3ffff;
+}
+.cs{
+	background-color: #99ff99;
+}
+
+.oeh{
+	
+	background-color:#ffffb3;
+}
+.dceh{
+	background-color:#b3ffff;
+}
+.csh{
+	background-color: #99ff99;
+}
+#heading{
+	text-align: center;
+	font-family: sans-serif;
+	color: #3399ff;
+}
+
+
+
+.oeh,.dceh,.csh{
+	width: 50px;
+    height: 50px;
+    margin: 30px 10px;
+}
+
+.label{
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 50px;
+	width: 50%;
+	text-align: center;
+	border: 0px solid black;
+}
+
+
+
+
+/*images*/
+body{
+	margin:0;
+	padding: 0;
+}
+.one{
+	width:50vw;
+}
+
+.two{
+	width:48vw;
+	height: 431px;	
+}
+
+.three{
+	width: 32.45vw;
+}
+.four{
+	width: 32.66vw;
+}
+.five{
+	width: 32.66vw;
+}
+.six{
+	width: 98.3vw;
+}
+.seven{
+	width: 500px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*audio video*/
+
+
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+/*main*/
+
+.hding{
+	font-size: 20px;
+	text-align: center;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+a{
+	color: #99ff99;
+	text-decoration: none;
+}
+
+.image-menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.gallery{
+	height: 200px;
+	width: 200px;
+}
+
+.wrapper{
+	margin-bottom: 30px;
+}
